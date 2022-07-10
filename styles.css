@@ -1,0 +1,141 @@
+:root{
+    /*COLORES*/
+    /*### Primary*/
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /*### Neutral*/
+    --VeryDarkBlue: hsl(212, 21%, 14%);
+    --DarkGrayishBlue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    /*Tamaño de fuente*/
+    --FontSizeParagraph: 14px;
+    --border-radius: 10px
+
+}
+
+*{
+    font-family: 'Fraunces', 'Montserrat';
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* texts */
+.type-article{
+    color: var(--DarkGrayishBlue);
+    word-spacing: 7px;
+    letter-spacing: 4px;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+
+.main{
+    border-radius: var(--border-radius);
+
+    width: 355px;
+    background-color: var(--White);
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.product{
+    margin: 10px;
+}
+
+.tittle{
+    color: var(--VeryDarkBlue);
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-family: 'Fraunces';
+    font-weight: 700;
+}
+.paragraph-text{
+    word-spacing: 2px;
+    line-height: 20px;
+    font-size: var(--FontSizeParagraph);
+    color: var(--DarkGrayishBlue);
+    font-family: 'Montserrat';
+    font-weight: 500;
+
+}
+
+
+body{
+    background-color: var(--Cream);
+}
+
+.flex-container{
+    display: flex;
+}
+
+
+
+.img-product{
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    width: 100%;
+}
+
+.content{
+    justify-content: flex-start;
+    padding: 15px;
+
+}
+
+.price-main{
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.price-new{
+    color: var(--Darkcyan);
+    font-size: 35px;
+}
+
+.price-old{
+    margin-left: 20px;
+    text-decoration:line-through;
+    color: var(--DarkGrayishBlue);
+    font-size: 15px;
+}
+
+
+
+.boton{
+    font-size: var(--FontSizeParagraph);
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    color: var(--White);
+
+    background-color: var(--Darkcyan);
+
+    border-radius: 5px;
+
+    padding: 15px;
+}
+.cart-img{
+    margin: 0px 5px;
+}
+.boton-link{
+    font-weight: bold;
+    color: var(--White);
+    text-decoration: none;
+}
+.boton-link:hover{
+    text-decoration: none;
+}
+.boton-link:visited{
+    text-decoration: none;
+}
